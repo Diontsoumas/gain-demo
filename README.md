@@ -1,6 +1,6 @@
 # JuceGain / gain-demo
 
-This is a simple gain juce plugin. It has targets for both AU and VST.
+This is a simple cross-platform (OSX and Windows) gain juce plugin. It has targets for both AU and VST.
 
 # How to Setup / Compile
 
