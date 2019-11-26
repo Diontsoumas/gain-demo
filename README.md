@@ -14,7 +14,7 @@ This is a simple gain juce plugin. It has targets for both AU and VST.
 
 3. Checkout the `5.4.1` tag of the JUCE repo
 
-4. Compile JUCE/extras/Projucer project using either XCode or VS
+4. Compile JUCE/extras/Projucer project using either XCode (version 9) or VS (version 2015)
 
 5. Open the .jucer file of the gain-demo repo with the Projucer app you just compiled
 
