@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="U5arR7" name="JuceGain" projectType="audioplug" jucerVersion="5.2.1"
+              buildVST="1" pluginName="JuceGain" pluginDesc="JuceGain" pluginManufacturer="Accusonus"
+              companyName="Accusonus" companyWebsite="accusonus.com" bundleIdentifier="com.accusonus.JuceGain">
+  <MAINGROUP id="GwsdyB" name="JuceGain">
+    <GROUP id="{53A2411F-B3B6-EDBF-D6FD-FA89525A8FFA}" name="Source">
+      <FILE id="VLfrAD" name="GainPluginDemo.h" compile="0" resource="0"
+            file="Source/GainPluginDemo.h"/>
+      <FILE id="SpOrFh" name="GainPluginDemo.cpp" compile="1" resource="0"
+            file="Source/GainPluginDemo.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" enablePluginBinaryCopyStep="1" targetName="JuceGain"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="JuceGain"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="~/SDKs/JuceLibrary/5.2.1/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="~/SDKs/JuceLibrary/5.2.1/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="~/SDKs/JuceLibrary/5.2.1/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="~/SDKs/JuceLibrary/5.2.1/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="~/SDKs/JuceLibrary/5.2.1/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="~/SDKs/JuceLibrary/5.2.1/modules"/>
+        <MODULEPATH id="juce_core" path="~/SDKs/JuceLibrary/5.2.1/modules"/>
+        <MODULEPATH id="juce_cryptography" path="~/SDKs/JuceLibrary/5.2.1/modules"/>
+        <MODULEPATH id="juce_data_structures" path="~/SDKs/JuceLibrary/5.2.1/modules"/>
+        <MODULEPATH id="juce_events" path="~/SDKs/JuceLibrary/5.2.1/modules"/>
+        <MODULEPATH id="juce_graphics" path="~/SDKs/JuceLibrary/5.2.1/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="~/SDKs/JuceLibrary/5.2.1/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="~/SDKs/JuceLibrary/5.2.1/modules"/>
+        <MODULEPATH id="juce_opengl" path="~/SDKs/JuceLibrary/5.2.1/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2015 targetFolder="Builds/VisualStudio2015">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="JuceGain"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="JuceGain"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_opengl" path="~/SDKs/JuceLibrary/5.2.1/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="~/SDKs/JuceLibrary/5.2.1/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="~/SDKs/JuceLibrary/5.2.1/modules"/>
+        <MODULEPATH id="juce_graphics" path="~/SDKs/JuceLibrary/5.2.1/modules"/>
+        <MODULEPATH id="juce_events" path="~/SDKs/JuceLibrary/5.2.1/modules"/>
+        <MODULEPATH id="juce_data_structures" path="~/SDKs/JuceLibrary/5.2.1/modules"/>
+        <MODULEPATH id="juce_cryptography" path="~/SDKs/JuceLibrary/5.2.1/modules"/>
+        <MODULEPATH id="juce_core" path="~/SDKs/JuceLibrary/5.2.1/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="~/SDKs/JuceLibrary/5.2.1/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="~/SDKs/JuceLibrary/5.2.1/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="~/SDKs/JuceLibrary/5.2.1/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="~/SDKs/JuceLibrary/5.2.1/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="~/SDKs/JuceLibrary/5.2.1/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="~/SDKs/JuceLibrary/5.2.1/modules"/>
+      </MODULEPATHS>
+    </VS2015>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS JUCE_VST3_CAN_REPLACE_VST2="0" JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+</JUCERPROJECT>
